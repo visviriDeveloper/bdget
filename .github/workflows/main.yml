@@ -96,6 +96,6 @@ jobs:
         run: |
           mvn verify sonar:sonar \
             -Dsonar.projectKey=visviriDeveloper_bdget \
-            -Dsonar.organization=visviriDeveloper \
+            -Dsonar.organization=visvirideveloper \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${SONAR_TOKEN}
